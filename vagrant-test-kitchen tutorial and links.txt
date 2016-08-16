@@ -16,5 +16,7 @@ https://learn.chef.io/manage-a-node/windows/get-set-up/    chefDK installation f
 
 https://www.youtube.com/watch?v=7LMo0nxFB_g&list=PL6D474E721138865A&index=2  windows powershell
 
+https://www.youtube.com/watch?v=ucd4v9R-XNA  joy of automation with franklin webber
+
 
 
