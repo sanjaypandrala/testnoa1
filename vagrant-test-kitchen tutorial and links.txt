@@ -1,0 +1,20 @@
+http://www.vagrantbox.es/
+
+https://www.youtube.com/watch?v=ZGUEjZckijA&spfreload=5#t=26.242649  vagrant tutorial
+
+https://www.youtube.com/watch?v=Hq1I29I8EfU   test kitchen tutorial from chef
+
+https://github.com/fnichol/chefdk-update-app/    alfresco installation by fnichol from chef
+
+https://learn.chef.io/local-development/windows/get-started-with-test-kitchen/  test kitchen on windows
+
+
+https://learn.chef.io/local-development/windows/get-set-up/get-set-up-vagrant/     vagrant and vbox
+
+
+https://learn.chef.io/manage-a-node/windows/get-set-up/    chefDK installation from chef
+
+https://www.youtube.com/watch?v=7LMo0nxFB_g&list=PL6D474E721138865A&index=2  windows powershell
+
+
+
