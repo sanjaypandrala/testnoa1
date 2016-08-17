@@ -18,5 +18,73 @@ https://www.youtube.com/watch?v=7LMo0nxFB_g&list=PL6D474E721138865A&index=2  win
 
 https://www.youtube.com/watch?v=ucd4v9R-XNA  joy of automation with franklin webber
 
+https://learn.chef.io/skills/how-to-learn-chef/   learning local development  ***
+
+http://www.sublimetext.com/    sublime text editor
+
+
+hosted chef pwd at noa is regular @C..s../email is sanjpa01@noa.nintendo.com / username sanjay-pandrala  /short name is noa-/ fullname Nintendo of America
+
+######################################################################################
+
+
+PS I:\learn-chef> vagrant ssh
+vagrant@127.0.0.1's password:
+vagrant@127.0.0.1's password:
+vagrant@127.0.0.1's password:
+Permission denied (publickey,password).
+PS I:\learn-chef> vagrant ssh-config
+Host default
+  HostName 127.0.0.1
+  User vagrant
+  Port 2222
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile I:/learn-chef/.vagrant/machines/default/virtualbox/private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+
+###########
+vagrant@127.0.0.1's password:
+PS I:\learn-chef\.vagrant\machines\default\virtualbox> vagrant ssh
+vagrant@127.0.0.1's password:
+Last failed login: Tue Aug 16 21:17:09 UTC 2016 from 10.0.2.2 on ssh:notty
+There were 6 failed login attempts since the last successful login.
+[vagrant@localhost ~]$ logout
+Connection to 127.0.0.1 closed.
+###the default password for vagrant ssh is vagrant
+
+#######################################################################################
+
+http://the.earth.li/~sgtatham/putty/0.66/htmldoc/index.html
+
+https://www.chef.io/webinars/?commid=167803   test kitchen webinar
+
+
+
+https://learn.chef.io/manage-a-node/rhel/get-a-node-to-bootstrap/      struck here
+
+
+google for what is my ip it will show 205.166.76.241
+
+
+
+
+
+
+ssh -i I:/learn-chef/.vagrant/machines/default/virtualbox/private_key -l vagrant -p 2222 localhost
+
+
+knife bootstrap 205.166.76.241 --ssh-port PORT --ssh-user vagrant --sudo --identity-file IDENTITY_FILE --node-name node1 --run-list 'recipe[learn_chef_httpd]'
+####################################################################################################################
+
+
+
+vagrant plugin install vagrant-winrm
+
+
+
+
 
 
