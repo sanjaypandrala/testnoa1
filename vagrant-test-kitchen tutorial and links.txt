@@ -83,6 +83,8 @@ knife bootstrap 205.166.76.241 --ssh-port PORT --ssh-user vagrant --sudo --ident
 
 vagrant plugin install vagrant-winrm
 
+continued in word document please check
+
 
 
 

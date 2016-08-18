@@ -1,0 +1,24 @@
+file '/root/C:\Users\sanjpa01\Documents\4alfresco\alfresco-from-alfreco\alfresco-one-platform-installer-5.1.0.5-linux-x64.bin' do
+  mode '0755'
+  owner 'root'
+  group 'root'
+end
+
+cookbook_file '/root/install_opts' do
+  source 'install_opts'
+  owner  'root'
+  group  'root'
+  mode   '0755'
+  action :create
+end
+
+execute 'alfresco ' do
+  command '/root/alfresco-one-installer-5.1.1-linux-x64.bin --optionfile /root/install_opts'
+  not_if { File.exist? ("/opt/alfresco/alfresco.sh")}
+end
+
+execute 'alfresco start' do
+ command './alfresco.sh start'
+ cwd     '/opt/alfresco/'
+ not_if 'netstat -tulpn | grep 8080'
+end
