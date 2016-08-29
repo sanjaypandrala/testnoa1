@@ -1,0 +1,5 @@
+https://docs.chef.io/ctl_kitchen.html   from chef
+
+https://github.com/mitchellh/vagrant/issues/5186  
+
+https://www.vagrantup.com/docs/getting-started/up.html	vagrant info from vagrant
